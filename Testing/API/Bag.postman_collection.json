@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "cf101196-0017-41e2-8b8b-766e8a4c5616",
+		"name": "Bag",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42741544"
+	},
+	"item": [
+		{
+			"name": "get_product.php",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://papadjonstest.ru/api/get_product.php?id=1",
+					"protocol": "https",
+					"host": [
+						"papadjonstest",
+						"ru"
+					],
+					"path": [
+						"api",
+						"get_product.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "count_backpacks.php",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://papadjonstest.ru/api/test_api/count_backpacks_test.php?&max_price=1000",
+					"protocol": "https",
+					"host": [
+						"papadjonstest",
+						"ru"
+					],
+					"path": [
+						"api",
+						"test_api",
+						"count_backpacks_test.php"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "max_price",
+							"value": "1000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fetch_backpacks.php",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://papadjonstest.ru/api/test_api/fetch_backpacks_test.php?min_price=50&sort=price_asc&limit=12&offset=0",
+					"protocol": "https",
+					"host": [
+						"papadjonstest",
+						"ru"
+					],
+					"path": [
+						"api",
+						"test_api",
+						"fetch_backpacks_test.php"
+					],
+					"query": [
+						{
+							"key": "min_price",
+							"value": "50"
+						},
+						{
+							"key": "sort",
+							"value": "price_asc"
+						},
+						{
+							"key": "limit",
+							"value": "12"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_categories.php",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://papadjonstest.ru/api/test_api/get_categories_test.php",
+					"protocol": "https",
+					"host": [
+						"papadjonstest",
+						"ru"
+					],
+					"path": [
+						"api",
+						"test_api",
+						"get_categories_test.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
